@@ -1,5 +1,4 @@
 import React from "react";
-import "./Portfolio.css";
 import project1 from "./img/deployedapp.png";
 import budget from "./img/budget.png";
 import workschedule from "./img/workplanner.png";
