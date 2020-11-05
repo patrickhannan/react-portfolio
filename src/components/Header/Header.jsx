@@ -11,13 +11,13 @@ const Header = () => {
         <section class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="./contact">Contact </a>
+              <a class="nav-link" href="./contact">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./projects">Projects</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="/">About</a>
             </li>
           </ul>
         </section>
