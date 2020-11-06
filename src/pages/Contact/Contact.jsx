@@ -13,13 +13,13 @@ const Contact = () => {
             <br />
             <p>Phone: (404) 621-1714</p>
             <p>Email:
-              <a href="mailto:jpatrickhannan@gmail.com">jpatrickhannan@gmail.com</a>
+              <a href="mailto:jpatrickhannan@gmail.com"> jpatrickhannan@gmail.com</a>
             </p>
             <p>LinkedIn:
-              <a href="https://www.linkedin.com/in/josephpatrickhannanjr">https://www.linkedin.com/in/josephpatrickhannanjr</a>
+              <a href="https://www.linkedin.com/in/josephpatrickhannanjr"> https://www.linkedin.com/in/josephpatrickhannanjr</a>
             </p>
             <p>Github:
-            <a href="https://github.com/patrickhannan">https://github.com/patrickhannan</a>
+            <a href="https://github.com/patrickhannan"> https://github.com/patrickhannan</a>
             </p>
           </div>
         </div>

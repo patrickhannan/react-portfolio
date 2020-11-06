@@ -1,4 +1,5 @@
 import React from "react";
+import "./Projects.css";
 import project1 from "./img/deployedapp.png";
 import budget from "./img/budget.png";
 import workschedule from "./img/workplanner.png";
@@ -6,139 +7,175 @@ import weatherdashboard from "./img/dashboard.png"
 import fitnesstracker from "./img/fitness.png";
 import bandwich from "./img/workstation.png";
 
-const Portfolio = () => {
+const Project = () => {
   return (
-    <div className="container">
-      <main className="row">
-        <div className="col-md-8">
-          <article className="block">
-            <h1 className="block-header">Portfolio</h1>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="text-center">Projects</h2>
+            </div>
             <hr />
-            <div id="repo1" className="project row">
-              <div className="col-sm-12 col-md-12 col-lg-12">
+            <div class="card-body">
+            <figure class="row">
+              <div class="col-lg-6">
                 <a
                   href="https://patrickhannan.github.io/05-daily-planner/"
                   target="_blank"
                 >
                   <img
-                    className="img-fluid port-image"
+                    class="img-fluid port-image projectimg"
                     src={workschedule}
                     alt="work day schedule"
                   />
                 </a>
                 <a
-                  className="btn btn-dark text-center"
-                  href="Github Repo"
+                  class="btn btn-dark text-center"
+                  href="https://github.com/patrickhannan/05-daily-planner/"
                 >
                   GitHub
                 </a>
+                <a
+                  class="btn btn-dark text-center"
+                  href="https://patrickhannan.github.io/05-daily-planner/"
+                >
+                  Application
+                </a>
               </div>
-            </div>
-            <div id="repo2" className="project row">
-              <div className="col-sm-12 col-md-12 col-lg-12">
+            
+            
+              <div class="col-lg-6">
                 <a
                   href="https://patrickhannan.github.io/server-side-apis-HW/"
                   target="_blank"
                 >
                   <img
-                    className="img-fluid port-image"
+                     class="img-fluid port-image projectimg"
                     src={weatherdashboard}
                     alt="weather dashboard"
                   />
                 </a>
                 <a
-                  className="btn btn-dark text-center"
+                  class="btn btn-dark text-center"
                   href="https://github.com/patrickhannan/server-side-apis-HW"
                 >
                   GitHub
                 </a>
+                <a
+                  class="btn btn-dark text-center"
+                  href="https://patrickhannan.github.io/server-side-apis-HW/"
+                >
+                  Application
+                </a>
               </div>
-            </div>
-            <div id="repo3" className="project row">
-              <div className="col-sm-12 col-md-12 col-lg-12">
+            </figure>
+            <figure class="row">
+              <div class="col-lg-6">
                 <a
                   href="https://immense-bastion-96583.herokuapp.com/"
                   target="_blank"
                 >
                   <img
-                    className="img-fluid port-image"
+                    class="img-fluid port-image projectimg"
                     src={fitnesstracker}
                     alt="fitness tracker"
                   />
                 </a>
                 <a
-                  className="btn btn-dark text-center"
+                  class="btn btn-dark text-center"
                   href="https://github.com/patrickhannan/fitness-tracker"
                 >
                   GitHub
                 </a>
+                <a
+                  class="btn btn-dark text-center"
+                  href="https://immense-bastion-96583.herokuapp.com/"
+                >
+                  Application
+                </a>
               </div>
-            </div>
-            <div id="repo4" className="project row">
-              <div className="col-sm-12 col-md-12 col-lg-12">
+            
+              <div class="col-lg-6">
                 <a
                   href="https://bandwich-app.herokuapp.com/"
                   target="_blank"
                 >
                   <img
-                    className="img-fluid port-image"
+                    class="img-fluid port-image projectimg"
                     src={bandwich}
                     alt="bandwich"
                   />
                 </a>
                 <a
-                  className="btn btn-dark text-center"
+                  class="btn btn-dark text-center"
                   href="https://github.com/patrickhannan/bandwich"
                 >
                   GitHub
                 </a>
-              </div>
-            </div>
-            <div id="repo5" className="project row">
-              <div className="col-sm-12 col-md-12 col-lg-12">
                 <a
-                  href="https://kreid333.github.io/project-1/"
+                  class="btn btn-dark text-center"
+                  href="https://bandwich-app.herokuapp.com/"
+                >
+                  Application
+                </a>
+              </div>
+            </figure>
+            <figure class="row">
+              <div class="col-lg-6">
+                <a
+                  href="https://patrickhannan.github.io/project-1/"
                   target="_blank"
                 >
                   <img
-                    className="img-fluid port-image"
+                    class="img-fluid port-image projectimg"
                     src={project1}
                     alt="project1"
                   />
                 </a>
                 <a
-                  className="btn btn-dark text-center"
+                  class="btn btn-dark text-center"
                   href="https://github.com/patrickhannan/project-1"
                 >
                   GitHub
                 </a>
+                <a
+                  class="btn btn-dark text-center"
+                  href="https://patrickhannan.github.io/project-1/"
+                >
+                  Application
+                </a>
               </div>
-            </div>
-            <div id="repo6" className="project row">
-              <div className="col-sm-12 col-md-12 col-lg-12">
+            
+              <div class="col-lg-6">
                 <a
                   href="https://safe-springs-30942.herokuapp.com/"
                   target="_blank"
                 >
                   <img
-                    className="img-fluid port-image"
+                    class="img-fluid port-image projectimg"
                     src={budget}
                     alt="budget tracker"
                   />
                 </a>
                 <a
-                  className="btn btn-dark text-center"
+                  class="btn btn-dark text-center"
                   href="https://github.com/patrickhannan/budget-tracker"
                 >
                   GitHub
                 </a>
+                <a
+                  class="btn btn-dark text-center"
+                  href="https://safe-springs-30942.herokuapp.com/"
+                >
+                  Application
+                </a>
               </div>
+              </figure>
             </div>
-          </article>
+          </div>
         </div>
-      </main>
-    </div>
+      </div>
   );
 };
 
-export default Portfolio;
+export default Project;
