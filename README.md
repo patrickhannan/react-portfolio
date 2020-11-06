@@ -18,7 +18,7 @@ This app requires no installation, simply view the app [here](https://patrickhan
 Use the navbar to update the page with what you want to see. The three pages are about me, contact info, and my best projects with links to the deployed app and the github repositories.
 
 Below is a image of how the projects page, for example, will look.
-![Example workout](./public/portfolio.png)
+![Example page](./public/portfolio.png)
 
 
 ## License
